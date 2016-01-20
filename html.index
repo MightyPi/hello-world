@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">    
+  </head>
+
+  <body>
+<!--
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Me</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Interests</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+-->
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Part time geek. Full time developer.</h1>
+        <!-- <a href="">Learn More</a> -->
+      </div>
+    </div> 
+    
+    <div class="neighborhood-guides">
+        <div class="container">
+            <h2>Recent Trips</h2>
+            <p>Some of the recent adventures I've been on.</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <h3>Edinburgh</h3>
+                        <img src="https://farm6.staticflickr.com/5767/23707351900_3cbae8a8c8_o.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <h3>Dublin</h3>
+                        <img src="https://farm1.staticflickr.com/581/22860638100_85a0cfa868_o.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <h3>York</h3>
+                        <img src="https://farm6.staticflickr.com/5687/21150036612_8328a8bfd3_o.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <h3>Cornwall</h3>
+                        <img src="https://farm1.staticflickr.com/321/20210724335_566e732af5_o.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <h3>Toronto</h3>
+                        <img src="https://farm9.staticflickr.com/8838/18399445751_c441047d64_o.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <h3>Stirling</h3>
+                        <img src="https://farm9.staticflickr.com/8871/17300728969_68b5002cab_o.jpg">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <h3>Pitlochery</h3>
+                        <img src="https://farm8.staticflickr.com/7315/15836562623_d2e63d45c4_o.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <h3>Iceland</h3>
+                        <img src="https://farm9.staticflickr.com/8724/16801701645_8fe06b9eb7_o.jpg">
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>Interests</h3>
+			<p>Things that I enjoy from time to time.</p>
+            <p><i>Coming soon...</i></p>
+			<!-- <p><a href="#">Learn more</a></p> -->
+	      </div>
+		  <div class="col-md-4">
+			<h3>Resume</h3>
+			<p>Details of my previous employment and skillset.</p>
+              <p><i>Coming soon...</i></p>
+			<!-- <p><a href="#">Learn more</a></p> -->
+		  </div>
+		  <div class="col-md-4">
+			<h3>Contact Me</h3>
+			<p>Ways in which you can get in touch.</p>
+            <p><i>Coming soon...</i></p>
+			<!-- <p><a href="#">Learn more</a></p> -->
+		  </div>
+	    </div>
+	  </div>
+	</div>
+      
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
