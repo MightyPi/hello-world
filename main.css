@@ -20,7 +20,7 @@
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  bottom:100px;
 }
 
 .jumbotron h1 {
@@ -37,7 +37,7 @@
 
 .trips-gallery {
   background-color: #efefef;
-  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
   font-family: Verdana;
 }
 
