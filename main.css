@@ -35,22 +35,22 @@
   color: #fff;
 }
 
-.neighborhood-guides {
+.trips-gallery {
   background-color: #efefef;
   border-bottom: 1px solid #dbdbdb;
   font-family: Verdana
 }
 
-.neighborhood-guides h2 {
+.trips-gallery h2 {
   color: #393c3d;
   font-size: 24px;
 }
 
-.neighborhood-guides h3 {
-    text-align: right;
+.trips-gallery h3 {
+  text-align: center;
 }
 
-.neighborhood-guides p {
+.trips-gallery p {
   font-size: 15px;
   margin-bottom: 13px;
 }
@@ -60,7 +60,7 @@
 }
 
 .learn-more container {
-  position: relative; 
+  margin: auto; 
 }
 
 .learn-more h3 {
