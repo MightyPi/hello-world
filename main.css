@@ -37,6 +37,7 @@
 
 .trips-gallery {
   background-color: #efefef;
+  border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
   font-family: Verdana;
 }
@@ -47,7 +48,7 @@
 }
 
 .trips-gallery h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .trips-gallery p {
@@ -60,7 +61,7 @@
 }
 
 .learn-more container {
-  position: relative; 
+  margin: auto; 
 }
 
 .learn-more h3 {
