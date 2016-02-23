@@ -15,7 +15,7 @@
   background-image:url('http://goo.gl/GXVUgO');
   height: 635px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .jumbotron .container {
