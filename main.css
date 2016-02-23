@@ -20,7 +20,7 @@
 
 .jumbotron .container {
   position: relative;
-  bottom:100px;
+  top:100px;
 }
 
 .jumbotron h1 {
@@ -37,8 +37,8 @@
 
 .trips-gallery {
   background-color: #efefef;
-  border-top: 1px solid #dbdbdb;
-  font-family: Verdana;
+  border-bottom: 1px solid #dbdbdb;
+  font-family: Verdana
 }
 
 .trips-gallery h2 {
@@ -47,7 +47,7 @@
 }
 
 .trips-gallery h3 {
-  text-align: center;
+    text-align: right;
 }
 
 .trips-gallery p {
@@ -60,7 +60,7 @@
 }
 
 .learn-more container {
-  position: relative;
+  position: relative; 
 }
 
 .learn-more h3 {
