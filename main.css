@@ -59,6 +59,8 @@
 
 .trips-gallery thumbnail {
   border-width: 3px;
+  border-style: solid
+  border-color: #dbdbdb;
 }
 
 .learn-more {
