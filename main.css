@@ -57,6 +57,10 @@
   margin-bottom: 13px;
 }
 
+.trips-gallery thumbnail {
+  border-width: 3px;
+}
+
 .learn-more {
   background-color: #f7f7f7;
 }
