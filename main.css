@@ -1,0 +1,72 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+    font-family: Verdana;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  height: 690px;
+  background-image:url('http://goo.gl/GXVUgO');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.trips-gallery {
+  background-color: #efefef;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  font-family: Verdana;
+}
+
+.trips-gallery h2 {
+  color: #393c3d;
+  font-size: 24px;
+}
+
+.trips-gallery h3 {
+  text-align: center;
+}
+
+.trips-gallery p {
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more container {
+  margin: auto; 
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
