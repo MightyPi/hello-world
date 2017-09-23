@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="">
 
 <head>
   <meta charset="utf-8">
@@ -13,26 +13,27 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,400" rel="stylesheet">
 
   <!-- Stylesheets -->
-  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
-  <!--  -->
-  <header>
-    <div class="banner-container">
+  <!-- Main header containing banner image -->
+  <header class="row">
+    <div class="banner-container col-xs-12 col-sm-12">
+      <img src="img/toronto-sunset-min.jpg" alt="Banner image">
       <div class="big-text">
         <h1>Ben Farrall</h1>
       </div>
     </div>
   </header>
 
-  <!--  -->
-  <main>
-    <header>
+  <!-- Main body containing content -->
+  <main class="row">
+    <!-- <header>
       <div class="navigation">
         <nav>
           <ul>
@@ -43,23 +44,24 @@
           </ul>
         </nav>
       </div>
-    </header>
-
-    <!--  -->
-
-    <div class="profile-container">
-      <img class="small-img" src="img/Ben-Farrall.jpg" alt="Me">
-    </div>
-    <section>
-      <div class="content">
-        <h2>About Me</h2>
-        <p>Recently moved to Toronto in March 2017, while jumping on a great opportunity to explore Canada and try out the real Canadian lifestyle. I've spent the better part of my professional career working in the financial industry, utilising C# and SQL,
-          but now I've landed here, I'm excited to try a new direction. The internet is everywhere and nowhere, but it's the future so I better get cracking!</p>
+    </header> -->
+    <div class="row">
+      <div class="profile-container col-xs-12 col-sm-12">
+        <img class="small-img" src="img/Ben-Farrall.jpg" alt="Me">
       </div>
-    </section>
+    </div>
+    <div class="row">
+      <section clcass="col-xs-12 col-sm-12">
+        <div class="content">
+          <h2>About Me</h2>
+          <p>Living in Toronto, discovering what Canada has to offer. Making friends. Having fun. Developing my skills as a Software Developer. Better get cracking!</p>
+        </div>
+      </section>
+    </div>
   </main>
 
-  <footer>
+  <!-- Main footer containing social media and legal -->
+  <footer class="row">
     <!-- Links to various social media -->
     <div class="footer-container">
       <div class="social-media">
@@ -77,11 +79,10 @@
     </div>
   </footer>
 
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-  </script>
-
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 

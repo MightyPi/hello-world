@@ -37,21 +37,32 @@
     }
 
     .banner-container {
-      background-image: url("https://orcadian.net/img/firewatch_parallax_wallpaper.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
+      padding: 0;
+    }
+
+    .banner-container img {
       max-width: 100%;
-      min-height: 46.5em;
+      height: auto;
+      opacity: 0.9;
     }
 
     .big-text {
       text-transform: capitalize;
-      color: rgb(191, 188, 188);
+      color: rgb(222, 222, 222);
+      text-align: center;
       margin: auto;
-      padding: 25% 25%;
-      height: 100%;
-      width: auto;
-      text-align: left;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      vertical-align: middle;
+    }
+
+    .big-text h1 {
+      margin: 25%;
+      font-size: 3em;
     }
 
     .navigation {
