@@ -1,5 +1,5 @@
 // Changing the defaults
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: false });
 
 window.sr = ScrollReveal();
 sr.reveal('#about', {duration: 300});
