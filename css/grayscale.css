@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #7a5d38;
+  border: 1px solid #7a5d38;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #a18664;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #695131;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #a18664;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #a18664;
   }
 }
 
@@ -105,6 +105,7 @@
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .masthead h2 {
@@ -168,7 +169,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #7a5d38;
 }
 
 .contact-section .card h4 {
@@ -179,7 +180,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #7a5d38;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -212,12 +213,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #7a5d38;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #7a5d38;
 }
 
 .bg-black {
@@ -225,7 +226,7 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #7a5d38 !important;
 }
 
 .text-primary {
